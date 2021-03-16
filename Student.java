@@ -34,12 +34,22 @@ public class Student {
 	   public void setPoints(int aPoints) {
 	       points = aPoints;
 	   }
+	   
+	   public Student(int aID, int aCredits, int aPoints) 
+	   {
+	       super();
+	       ID = aID;
+	       Credits = aCredits;
+	       points = aPoints;
+	       GPcalculator();
+	   }
 
 	   public String toString() {
 	       return "ID : " + ID + " Credits : " + Credits + " Points : " + points + " Grade Point : "
 	               + GP;
 	   }
 
+	  
 	   public void GPcalculator() {
 	       GP = points / (double) Credits;
 	   }
