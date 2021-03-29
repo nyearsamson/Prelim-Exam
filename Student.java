@@ -8,30 +8,37 @@ public class Student {
 	   private int points;
 	   
 
-	   public Student() {
+	   public Student()
+	   {
 	   }
 	   
-	   public int getID() {
+	   public int getID()
+	   {
 	       return ID;
 	   }
 
-	   public void setID(int aID) {
+	   public void setID(int aID)
+	   {
 	       ID = aID;
 	   }
 
-	   public int getCredits() {
+	   public int getCredits()
+	   {
 	       return Credits;
 	   }
 
-	   public void setCredits(int aCredits) {
+	   public void setCredits(int aCredits)
+	   {
 	       Credits = aCredits;
 	   }
 
-	   public int getPoints() {
+	   public int getPoints()
+	   {
 	       return points;
 	   }
 
-	   public void setPoints(int aPoints) {
+	   public void setPoints(int aPoints)
+	   {
 	       points = aPoints;
 	   }
 	   
